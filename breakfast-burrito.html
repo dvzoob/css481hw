@@ -3,28 +3,40 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>David's Recipes</title>
 </head>
 
 <body>
-    <h1>Chorizo Breakfast Burritos</h1>
-    <img src="breakfast-burrito.jpg" width="600" height="420" alt="Chorizo Breakfast Burritos">
+<main class="page">
+    <header>
+        <h1>Chorizo Breakfast Burritos</h1>
+        <figure>
+        <img class="hero" src="breakfast-burrito.jpg" width="600" height="420" alt="Chorizo Breakfast Burritos">
+            <figcaption>Chorizo breakfast burritos, ready to wrap and freeze.</figcaption>
+        </figure>
+    </header>
 
-    <section>
+    <section class="about">
         <h2>About</h2>
         <p>High protein chorizo and egg breakfast wraps for meal prep! I got this recipe from a video by Chef Jack Ovens.</p>
 
-        <p>Number of Servings: 5</p>
+        <dl>
+            <dt>Number of Servings:</dt>
+            <dd>5</dd>
+        </dl>
     </section>
 
+    <div class="details">
     <section>
         <h2>Ingredients</h2>
         <ul>
-            <li>4.5 oz store-brand Mexican pork chorizo (half a 9 oz tube)</li>
-            <li>8 oz store-brand 93/7 ground turkey</li>
+            <li>4.5 <abbr title="ounces">oz</abbr> store-brand Mexican pork chorizo (half a 9 <abbr title="ounces">oz</abbr> tube)</li>
+            <li>8 <abbr title="ounces">oz</abbr> store-brand 93/7 ground turkey</li>
             <li>6 large eggs</li>
             <li>1 cup carton liquid egg whites</li>
-            <li>10 oz frozen chopped spinach (1 box)</li>
+            <li>10 <abbr title="ounces">oz</abbr> frozen chopped spinach (1 box)</li>
             <li>3/4 cup store-brand shredded reduced-fat cheddar</li>
             <li>5 burrito-size (10 inch) flour tortillas, store brand</li>
             <li>Cooking spray</li>
@@ -46,7 +58,9 @@
         </ul>
     </section>
 
-    <section>
+    </div>
+
+    <section class="steps">
         <h2>Instructions</h2>
         <ol>
             <li>Microwave the frozen spinach in a bowl for 3 to 4 minutes to thaw.</li>
@@ -79,11 +93,11 @@
             <li>Take the pan off the heat while the eggs still look soft and a little wet. They finish cooking from the leftover heat.</li>
             <li>Add the eggs to the large bowl, on top of the spinach.</li>
             <li>Gently mix everything together.</li>
-            <li>Let the filling cool for 10 minutes. Hot filling steams the tortillas and makes them soggy.</li>
+            <li>Let the filling cool for 10 minutes. <strong>Hot filling steams the tortillas and makes them soggy.</strong></li>
             <li>Wrap 1 tortilla in a damp paper towel and microwave for 15 seconds so it bends without cracking.</li>
             <li>Lay the tortilla flat.</li>
             <li>Scoop 1/5 of the filling (about 1 cup) into the lower middle.</li>
-            <li>Sprinkle about 2 Tbsp of cheese on top.</li>
+            <li>Sprinkle about 2 <abbr title="tablespoons">Tbsp</abbr> of cheese on top.</li>
             <li>Fold in both sides.</li>
             <li>Fold the bottom edge up over the filling.</li>
             <li>Roll it up tight.</li>
@@ -96,11 +110,18 @@
         </ol>
     </section>
 
-    <section>
+    <section class="explore">
         <h2>Explore</h2>
-        <p><a href="index.html">Main Page</a> - <a href="butter-chicken.html">Butter Chicken</a></p>
+        <nav>
+            <p><a href="index.html">Main Page</a> - <a href="butter-chicken.html">Butter Chicken</a></p>
+        </nav>
     </section>
 
+</main>
+
+<footer>
+    <p><small>Cooked and written by David Visperas.</small></p>
+</footer>
 </body>
 
 </html>

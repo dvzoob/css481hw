@@ -3,20 +3,35 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&display=swap">
+    <link rel="stylesheet" href="css/styles.css">
     <title>David's Recipes</title>
 </head>
 
 <body>
-    <h1>Butter Chicken</h1>
-    <img src="butter-chicken.jpg" width="600" height="420" alt="Butter Chicken">
+<main class="page">
+    <header>
+        <h1>Butter Chicken</h1>
+        <figure>
+        <img class="hero" src="butter-chicken.jpg" width="600" height="420" alt="Butter Chicken">
+            <figcaption>Butter chicken with rice and peas.</figcaption>
+        </figure>
+    </header>
 
-    <section>
+    <section class="about">
         <h2>About</h2>
         <p>A creamy and flavorful Indian dish made with tender chicken in a rich tomato-based sauce.</p>
 
-        <p>Number of Servings: 5</p>
+        <dl>
+            <dt>Number of Servings:</dt>
+            <dd>5</dd>
+        </dl>
     </section>
 
+    <div class="details">
     <section>
         <h2>Ingredients</h2>
         
@@ -24,29 +39,29 @@
         <ul>
             <li>2.5 lb store brand frozen boneless skinless chicken breast</li>
             <li>1 cup store brand nonfat plain Greek yogurt</li>
-            <li>1 tbsp jarred minced garlic</li>
-            <li>1 tsp ground ginger</li>
-            <li>1 tbsp garam masala (or curry powder)</li>
-            <li>1 tsp paprika</li>
-            <li>1 tsp salt</li>
+            <li>1 <abbr title="tablespoon">tbsp</abbr> jarred minced garlic</li>
+            <li>1 <abbr title="teaspoon">tsp</abbr> ground ginger</li>
+            <li>1 <abbr title="tablespoon">tbsp</abbr> garam masala (or curry powder)</li>
+            <li>1 <abbr title="teaspoon">tsp</abbr> paprika</li>
+            <li>1 <abbr title="teaspoon">tsp</abbr> salt</li>
             <li>Cooking spray</li>
         </ul>
 
         <h3>Sauce</h3>
 <ul>
-  <li>1 tbsp butter</li>
+  <li>1 <abbr title="tablespoon">tbsp</abbr> butter</li>
   <li>1.5 cups frozen diced onion</li>
-  <li>1 tbsp jarred minced garlic</li>
-  <li>1 tsp ground ginger</li>
-  <li>3 tbsp tomato paste</li>
-  <li>1 tbsp garam masala (or curry powder)</li>
-  <li>1 tsp paprika</li>
-  <li>1 tsp ground cumin</li>
-  <li>1/2 tsp turmeric (skip if using curry powder)</li>
+  <li>1 <abbr title="tablespoon">tbsp</abbr> jarred minced garlic</li>
+  <li>1 <abbr title="teaspoon">tsp</abbr> ground ginger</li>
+  <li>3 <abbr title="tablespoon">tbsp</abbr> tomato paste</li>
+  <li>1 <abbr title="tablespoon">tbsp</abbr> garam masala (or curry powder)</li>
+  <li>1 <abbr title="teaspoon">tsp</abbr> paprika</li>
+  <li>1 <abbr title="teaspoon">tsp</abbr> ground cumin</li>
+  <li>1/2 <abbr title="teaspoon">tsp</abbr> turmeric (skip if using curry powder)</li>
   <li>1 can (28 oz) crushed tomatoes</li>
   <li>1/2 cup water</li>
-  <li>1 tsp salt</li>
-  <li>1 tsp sugar</li>
+  <li>1 <abbr title="teaspoon">tsp</abbr> salt</li>
+  <li>1 <abbr title="teaspoon">tsp</abbr> sugar</li>
   <li>1/2 cup nonfat plain Greek yogurt</li>
   <li>2 cups frozen peas</li>
 </ul>
@@ -55,7 +70,7 @@
 <ul>
   <li>1.25 cups long grain white rice (dry)</li>
   <li>2.5 cups water</li>
-  <li>1/2 tsp salt</li>
+  <li>1/2 <abbr title="teaspoon">tsp</abbr> salt</li>
 </ul>
     </section>
 
@@ -71,7 +86,9 @@
         </ul>
     </section>
 
-    <section>
+    </div>
+
+    <section class="steps">
         <h2>Instructions</h2>
 
         <h3>Rice</h3>
@@ -79,7 +96,7 @@
   <li>Add rice, 2.5 cups water, and salt to the medium pot.</li>
   <li>Bring to a boil on high heat.</li>
   <li>Cover and turn heat to low.</li>
-  <li>Cook 18 minutes. Do not lift the lid.</li>
+  <li>Cook 18 minutes. <strong>Do not lift the lid.</strong></li>
   <li>Turn off heat. Let it sit covered 5 minutes.</li>
   <li>Fluff with a fork. Done when the water is gone and the rice is soft.</li>
 </ol>
@@ -114,11 +131,18 @@
 </ol>
     </section>
 
-    <section>
+    <section class="explore">
         <h2>Explore</h2>
-        <p><a href="index.html">Main Page</a> - <a href="breakfast-burrito.html">Chorizo Breakfast Burritos</a></p>
+        <nav>
+            <p><a href="index.html">Main Page</a> - <a href="breakfast-burrito.html">Chorizo Breakfast Burritos</a></p>
+        </nav>
     </section>
 
+</main>
+
+<footer>
+    <p><small>David's Recipes. Cooked and written by David.</small></p>
+</footer>
 </body>
 
 </html>
